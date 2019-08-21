@@ -1,0 +1,1256 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	position: relative;
+	background-color: #020915;
+}
+
+.btnDiv2{
+    position:absolute;
+	z-index: 99;
+	top: 700px;
+    right: 140px;	
+}
+
+
+#btn-front{
+	color: darkgrey;
+	cursor:initial;
+	font-weight: 400;
+}
+
+#btn-back{
+	color: white;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+/*nav scroll bar*/
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 48px 0;
+    display: block;
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets{
+	right: -4px;
+}
+
+.swiper-pagination{
+	z-index: 999;
+	margin-right: 50px;
+}
+
+.swiper-pagination-bullet {
+	width: 3px;
+	height: 42px;
+	/*box-shadow: rgb(46, 106, 255) 0px 0px 5px;*/
+	border-radius: 20px;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+	background: white;
+	border-color: rgba(122, 233, 233, 0);
+	opacity: 1;
+}
+
+
+.swiper-pagination-bullet-active {
+	box-shadow: rgb(46, 106, 255) 0px 0px 7px;
+	background: linear-gradient(to top, rgb(134, 186, 255), rgb(34, 97, 255));
+}
+
+  /*guidetext*/
+.guide-text1{
+	color: white;
+    right: 67px;
+    position: fixed;
+    z-index: 400;
+    /*top: 339px;*/
+   top: 37%;
+     display: none; 
+}
+
+.guide-text2{
+	color: white;
+    right: 67px;
+    position: fixed;
+    z-index: 400;
+    /*top: 430px;*/
+   top: 47%;
+     display: none; 
+}
+
+.guide-text3{
+	color: white;
+    right: 67px;
+    position: fixed;
+    z-index: 400;
+   /* top: 515px;*/
+  top: 57%;
+    text-align: right;
+    display: none;
+}
+
+/*slide-1 content start*/
+#web_bg1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+	z-index: -10;
+	zoom: 1;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-position: center 0;
+}
+
+
+/*homepage text*/
+
+.title {
+	font-size: 113px;
+	color: white;
+	padding: 35px 0 0 125px;
+	font-family: Helvetica;
+	text-shadow: 0px 0px 82px #1f5ff9;
+}
+
+.p-1 {
+	width: 562px;
+	line-height: 1.6;
+	color: #ecf2ff;
+	text-align: left;
+	margin: -50px 0 0 135px;
+	text-shadow: 0px 0px 22px #1f5ff9;
+	font-size: 20px;
+}
+
+.p-2 {
+	width: 562px;
+	line-height: 1.6;
+	color: #ecf2ff;
+	text-align: left;
+	margin: 44px 0 0 135px;
+	text-shadow: 0px 0px 22px #1f5ff9;
+	font-size: 20px;
+}
+
+
+/*slide-1 content end*/
+
+
+/*slide-2 content start*/
+
+.container2 {
+	margin: 0px 0px 0px -28px;
+}
+
+#web_bg2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+	z-index: -10;
+	zoom: 1;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-position: center 0;
+}
+
+
+/*button container start*/
+.button-container{
+	top: 50px;
+	position: relative;
+}
+
+/*button system*/
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style-type: none;
+	top: 0px;
+	height: 24px;
+	line-height: 36px;
+	float: left;
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+.tworow {
+	border-radius: 20px;
+	width: 344px;
+	height: 33px;
+	border: 2px solid;
+	box-shadow: 0px 0px 5px #2e6aff;
+	display: inline-block;
+	position: relative;
+	margin-left: 84px;
+}
+
+.tworow span {
+	display: inline-block;
+	height: 37px;
+	top: -2px;
+	position: absolute;
+	left: 0;
+	border-radius: 20px;
+	transition: left .4s;
+	-webkit-transition: left .4s;
+	width: 174px;
+	background: linear-gradient(to left, #86baff, #2261ff);
+	box-shadow: 0px 0px 25px #2665ff;
+}
+
+.tworow .active {
+	color: white;
+}
+
+.tworow li {
+	width: 172px;
+	color: white;
+}
+
+
+/*end*/
+
+
+/*category button*/
+.highlight{
+	 filter: drop-shadow(-4px -3px 3px #86baff);
+}
+.highlight-chip{
+	filter: brightness(1.7);
+}
+.highlight-mask{
+	background-color: rgba(2, 8, 14, 0.7);
+}
+.button-container {
+	position: relative;
+	z-index: 999;
+}
+
+.dropdown {
+	position: absolute;
+    right: 5%;
+    display: inline-block;
+    padding-bottom: 30px;
+    z-index: 999;
+}
+
+.dropbtn {
+	cursor: pointer;
+	background: linear-gradient(to left, #86baff, #2261ff);
+	box-shadow: 0px 0px 20px #2665ff;
+	border-radius: 30px;
+	width: 235px;
+	padding: 10px 0px;
+	color: white;
+	font-size: 17px;
+	border: none;
+}
+
+.dropdown-content {
+	margin-top: 20px;
+	/*margin-left: -30px;*/
+	width: auto;
+	padding: 0px 30px 18px 30px;
+	display: none;
+	border-radius: 10px;
+	position: absolute;
+	background-color: rgba(37, 43, 69, 0.6);
+	min-width: 160px;
+	z-index: 99;
+}
+
+.dropdown-content a {
+	color: #b5c1dc;
+	text-align: center;
+	padding-top: 18px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropbtn:hover .fa-caret-down {
+	transform: rotate(180deg);
+	transition: 0.4s ease-in-out;
+}
+
+
+/*.dropbtn:hover{background: linear-gradient(to left, #e1eeff, #1e5eff);}*/
+
+.dropdown-content a:hover {
+	color: #4b7ffa;
+}
+
+
+/*button container end*/
+
+
+/*teardown-phone content start*/
+
+.container {
+	margin: 93px 0px 0px -28px;
+}
+
+
+/*mask*/
+
+.hoverFunction {
+	display: inline-block;
+	z-index: 10;
+	position: relative;
+	cursor: pointer;
+}
+
+.hoverFunction2 {
+	display: inline-block;
+	z-index: 10;
+	position: relative;
+	cursor: pointer;
+}
+.maskless{
+	    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 320;
+}
+.mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	/*filter: brightness(0%);*/
+	background-color: rgba(2, 8, 14, 0);
+	z-index: 320;
+}
+/*end*/
+
+
+/*img-1*/
+.div1{
+    margin-left: 309px;
+    top: -547px;
+    
+}
+.img-1{
+	width: 37px;
+    position: initial;
+    z-index: 100;
+}
+
+.div1:hover{
+    transform: scale(1.2); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out; 
+    z-index: 101; 
+}
+
+.box1{
+    height: auto;
+    padding-bottom: 30px;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgba(37,43,69,0.9);
+    position: absolute;
+    margin-top: -693px;
+    margin-left: 146px;
+    display: none;
+    z-index: 200; 
+}
+
+.b-img1{
+    width: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: list-item;
+}
+
+.line1{
+    width: 210px;
+    height: 1.5px;
+    background: rgba(105,105,122,0.5);
+}
+
+
+
+/*img-2*/
+
+.div2{
+    top: -542px;
+    margin-left: -16px;
+
+}
+
+.img-2{
+	width: 48px;
+    position: initial;
+    z-index: 80;
+    opacity: 1;
+}
+
+
+.div2:hover{
+    transform: scale(1.2); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 220;
+
+}
+
+.box2{
+    height: auto;
+    padding-bottom: 30px;
+    width: 242px;
+    border-radius: 20px;
+    background-color: rgba(37,43,69,0.9);
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 139px;
+    z-index: 200;
+    display: none;  
+}
+
+.b-img2{
+    width: 58px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: list-item;
+    filter: drop-shadow(0px 0px 7px #151a2f);
+}
+
+.line2{
+    border: 0.7px solid rgba(92,93,112,0.5);
+    width: 242px;
+    height: 0;
+    margin-top: 12px;
+}
+
+
+
+/*img-3*/
+.div3{
+     margin-left: -17px;
+}
+
+.img-3{
+	width: 217px;
+    position: relative;
+    opacity: 1;
+    z-index: 99; 
+}
+
+.div3:hover{
+    transform: scale(1.1); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+     z-index: 200;
+
+}
+
+.box3{
+    height: auto;
+    padding-bottom: 30px;
+    width: 347px;
+    border-radius: 20px;
+    background-color: rgba(37,43,69,0.9);
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 155px;
+    z-index: 200;
+    display: none; 
+}
+
+
+.line3{
+    border: 0.7px solid rgba(92,93,112,0.5);
+    width: 347px;
+    height: 0;
+    margin-top: 12px;
+}
+
+.b-img3{
+    width: 305px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: list-item;
+    filter: drop-shadow(0px 0px 7px #151a2f);
+}
+
+
+
+
+/*img-4*/
+.div4{
+    margin-left: -154px;
+    top: -219px;
+
+}
+
+.img-4{
+	width: 170px;
+    position: relative;
+    opacity: 1;
+    z-index: 100;
+}
+
+.div4:hover{
+    transform: scale(1.1); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 200;
+
+}
+
+.box4{
+    height: auto;
+    padding-bottom: 30px;
+    width: 307px;
+    border-radius: 20px;
+    background-color: rgba(37,43,69,0.9);
+    position: absolute;
+    margin-top: -518px;
+    margin-left: 175px;
+    z-index: 200;
+    display: none;  
+}
+
+.b-img4{
+    width: 296px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: list-item;
+}
+
+.line4{
+    border: 0.7px solid rgba(92,93,112,0.5);
+    width: 307px;
+    height: 0;
+    margin-top: 12px;
+}
+
+
+
+/*img-5*/
+.div5{
+    margin-left: -223px;
+    top: -20px;
+}
+
+.img-5{
+	width: 177px;
+    position: relative;
+    z-index: 101;
+    opacity: 1;
+}
+
+.div5:hover{
+    transform: scale(1.3); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 200;
+
+}
+
+
+
+/*img-6*/
+.div6{
+    margin-left: 5px;
+    top: -110px;
+}
+
+.img-6{
+	width: 178px;
+    position: relative;
+    z-index: 102;
+    opacity: 1;
+}
+
+.div6:hover{
+    transform: scale(1.1); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 200;
+
+}
+
+.box6{
+    height: auto;
+    padding-bottom: 30px;
+    width: 265px;
+    border-radius: 20px;
+    background-color: rgba(37,43,69,0.9);
+    position: absolute;
+    margin-top: -456px;
+    margin-left: 360px;
+    z-index: 200;
+    display: none;  
+}
+
+.b-img6{
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: list-item;
+}
+
+.line6{
+    border: 0.7px solid rgba(92,93,112,0.5);
+    width: 265px;
+    height: 0;
+    margin-top: 12px;
+}
+
+
+
+.box6 p{
+    line-height: 1.6;
+    color: #b5c1dc;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    font-size: 13px;
+}
+
+/*img-7*/
+.div7{
+    margin-left: -75px;
+    top: -70px;
+}
+
+.img-7{
+	width: 75px; 
+    position: relative;
+    z-index: 100;
+    opacity: 1;
+}
+
+.div7:hover{
+    transform: scale(1.2); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 200;
+
+}
+
+/*img-8*/
+
+.hoverFunction3{
+     display: inline-block;
+    z-index: 11;
+    position: relative;
+    cursor: pointer;
+}
+.div8{
+        margin-left: -181px;
+    top: -56px;
+    
+}
+.img-8{
+	width: 109px;
+    position: relative;
+    z-index: 101;
+    opacity: 1;
+}
+
+.div8:hover{
+    transform: scale(1.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 200;
+}
+
+/*img-9*/
+.div9{
+    margin-left: -104px;
+
+}
+.img-9{
+	width: 184px;
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+}
+
+.div9:hover{
+    transform: scale(1.3); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+
+}
+
+/*img-10*/
+.div10{
+    margin-left: -79px;
+    top: -324px;
+}
+.img-10{
+	width: 82px;
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+}
+
+.div10:hover{
+    transform: scale(1.4); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 250;
+
+}
+
+/*chip 1 */
+.div1-1{
+    margin-left: -61px;
+    top: -345px;
+    z-index: 220;
+
+}
+.chip1-1{
+    filter: drop-shadow(0px 0px 3px #2c65f0);
+    width: 8px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-1:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip 2 */
+.div1-2{
+        z-index: 220;
+        margin-left: -3px;
+        top: -338px;
+
+}
+
+.chip1-2{
+    filter: drop-shadow(0px 0px 3px #2c65f0);
+    width: 16px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-2:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+
+.div1-3{
+      z-index: 220;    
+      margin-left: -5px;
+      top: -343px;
+}
+.chip1-3{
+    filter: drop-shadow(0px 0px 3px #2c65f0);
+    width: 23px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-3:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip1-4*/
+.div1-4{
+    margin-left: -28px;
+    top: -384px;
+
+    z-index: 220;
+    
+}
+.chip1-4{
+    filter: drop-shadow(0px 0px 3px #2c65f0);
+    width: 23px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-4:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip1-5*/
+.div1-5{
+        margin-left: -54px;
+        top: -368px;
+        z-index: 220;
+    
+}
+.chip1-5{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 19px;
+    position: relative;
+    opacity: 1;
+}
+
+
+.div1-5:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+
+/*chip1-7*/
+.div1-7{
+    margin-left: -37px;
+    top: -408px;
+    z-index: 220; 
+}
+
+.chip1-7{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 39px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-7:hover{
+    transform: scale(1.8); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip1-8*/
+.div1-8{
+     margin-left: -3px;
+     top: -421px;
+
+    z-index: 220;
+}
+.chip1-8{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 9px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-8:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip1-9*/
+.div1-9{
+    margin-left: -48px;
+    top: -453px;
+
+    z-index: 220;
+}
+.chip1-9{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 24px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-9:hover{
+    transform: scale(2.1); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip1-10*/
+.div1-10{
+    margin-left: 0px;
+    top: -464px;
+    z-index: 220;
+}
+.chip1-10{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 11px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-10:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip1-11*/
+.div1-11{
+    margin-left: -34px;
+    top: -502px;
+    z-index: 220;
+}
+.chip1-11{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 14px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-11:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+
+/*chip1-12*/
+.div1-12{
+    z-index: 220;
+    margin-left: -35px;
+    top: -560px;
+}
+.chip1-12{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 13px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-12:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+
+/*chip1-13*/
+.div1-13{
+    margin-left: -18px;
+    z-index: 220;
+    top: -583px;
+}
+.chip1-13{
+    filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 11px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-13:hover{
+    transform: scale(2); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+
+/*chip1-14*/
+.div1-14{
+    margin-left: -12px;
+    top: -604px;
+    z-index: 220;
+}
+.chip1-14{
+   filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 8px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-14:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*chip1-15*/
+.div1-15{
+    top: -525px;
+    z-index: 220;
+    margin-left: -19px;
+}
+.chip1-15{
+   filter: drop-shadow(0px 0px 4px #2c65f0);
+    width: 13px;
+    position: relative;
+    opacity: 1;
+}
+
+.div1-15:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;
+    z-index: 230;
+    filter: drop-shadow(0px 0px 0px #2c65f0);
+}
+
+/*img11*/
+.div11{
+    margin-left: 57px;
+    z-index: 105;
+    top: -395px;
+}
+.img11{
+	width: 78px;
+    position: relative;
+}
+
+.div11:hover{
+    transform: scale(1.2); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;  
+    z-index: 200; 
+}
+
+
+/*chip2-1*/
+.div2-1{
+    z-index: 201;
+    margin-left: -41px;
+    top: -446px;
+}
+.chip2-1{
+    width: 34px;
+    position: relative;
+    filter: drop-shadow(0px 0px 5px #2c65f0);
+}
+
+.div2-1:hover{
+    transform: scale(1.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;  
+    z-index: 202; 
+
+}
+
+/*chip2-2*/
+.div2-2{
+    z-index: 201;
+    margin-left: -26px;
+    top: -414px;
+}
+.chip2-2{
+    width: 9px;
+    position: relative;
+    filter: drop-shadow(0px 0px 5px #2c65f0);
+}
+
+.div2-2:hover{
+    transform: scale(1.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;  
+    z-index: 202; 
+
+}
+
+
+
+.img-12{
+	width: 61px;
+    margin-left: -58px;
+    margin-bottom: 322px;
+    cursor: pointer; 
+    position: initial;
+}
+.img-12:hover{
+    transform: scale(1.4);   
+    transition: 0.3s ease-in-out;  
+    z-index: 205; 
+
+}
+
+.img-13{
+	width: 53px;
+    margin-left: 7px;
+    margin-bottom: 332px;
+    cursor: pointer; 
+    position: initial;
+}
+.img-13:hover{
+    transform: scale(1.3);  
+    transition: 0.3s ease-in-out; 
+    z-index: 200;  
+}
+
+
+/**/
+.img-14{
+	width: 226px;
+    margin-left: -19px;
+    margin-bottom: 3px;
+    cursor: pointer; 
+    position: relative;
+    z-index: 102px;
+}
+.img-14:hover{
+    transform: scale(1.1);     
+    transition: 0.3s ease-in-out;   
+    
+
+}
+
+.img-15{
+	width: 36px;
+    margin-left: -159px;
+    margin-bottom: 635px;
+    cursor: pointer; 
+    position: relative;
+    z-index: 205px;
+}
+.img-15:hover{
+    transform: scale(2);  
+    transition: 0.3s ease-in-out;  
+    z-index: 210; 
+
+}
+
+.img-16{
+	width: 14px;
+    margin-left: 56px;
+    margin-bottom: 636px;
+    cursor: pointer; 
+    position: relative;
+    z-index: 106px;
+}
+.img-16:hover{
+    transform: scale(2.5);   
+    transition: 0.3s ease-in-out;  
+    z-index: 200; 
+
+}
+
+.img-17{
+	width: 26px;
+    margin-left: -40px;
+    margin-bottom: 634px;
+    cursor: pointer; 
+    position: relative;
+    z-index: 106px;
+}
+
+.img-17:hover{
+    transform: scale(2.5); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;   
+    z-index: 200;
+
+}
+
+
+
+.img-18{
+	width: 105px;
+    margin-left: -146px;
+    margin-bottom: 615px;
+    cursor: pointer; 
+    position: relative;
+    z-index: 106px;
+}
+.img-18:hover{
+    transform: scale(1.3); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;   
+    z-index: 200;
+
+}
+
+.img-19{
+	width: 156px;
+    margin-left: -111px;
+    margin-bottom: 85px;
+    cursor: pointer; 
+    position: relative;
+    z-index: 103px;
+}
+
+.img-19:hover{
+    transform: scale(1.1); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;   
+    z-index: 200;
+
+}
+
+
+.img-20{
+	width: 208px;
+    margin-left: 9px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 104px;
+}
+
+.img-20:hover{
+    transform: scale(1.1); /* 鼠标放到图片上的时候图片按比例放大1.5倍   */
+    transition: 0.3s ease-in-out;   
+    z-index: 200;
+
+}
+
+
+
+.box-button:hover{/*鼠标移动时的颜色变化*/
+            color:#4e88ff;
+            text-shadow: 0px 0px 8px #4e88ff;
+        }
+
+.box-h4{
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.box-p{
+    line-height: 1.6;
+    color: #b5c1dc;
+    text-align: left;
+    padding: 0 20px 0 20px;
+    font-size: 13px;
+}
+/*slide-2 end*/
+
+/*slide-3 start*/
+.container-map{
+    width: 100%;
+    height: 1000px;
+    background-color: #03091a;
+}
+
+/*slide-3 end*/
+

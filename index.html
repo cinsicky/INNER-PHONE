@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Inner Phone</title>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/map.css">
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<div class="swiper-container" id="nav-vertical">
+			<p class="guide-text1">Introduction</p>
+			<p class="guide-text2">Teardown</p>
+			<p class="guide-text3">Manufacturer<br>/ Supplier</p>
+			<!-- nav-scrollbar -->
+			<div class="swiper-pagination verticalSwiper"></div>
+
+			<div class="swiper-wrapper">
+				<!--slide 1-->
+				<div class="swiper-slide">
+
+					<div id="web_bg1" style="background-image: url(img/homg-bg.png);"></div>
+					<p class="title">INNER PHONE</p>
+					<p class="p-1">We usually only look at the appearance of mobile phones, but we have not noticed that the world's amazing division of labor and the sophisticated industrial chain is hidden in the intricate smartphones.</p>
+					<p class="p-2">Behind a complex mobile phone is the result of global technical cooperation and hundreds of behind-the-scenes manufacturers and suppliers.</p>
+
+				</div>
+
+				<!--slide 2-->
+				<div class="swiper-slide">
+					<div class="container2">
+						<div id="web_bg2" style="background-image: url(img/bg1.png);"></div>
+
+						<!--button-switch start-->
+						<!-- button-container start -->
+						<div class="button-container">
+
+							<div class="tworow">
+								<span id="thirdbg"></span>
+								<ul id="hourlist">
+									<li id="btn1" class="active" type="1">IOS iPhoneX</li>
+									<li id="btn2" type="2">Android HuaweiP30</li>
+								</ul>
+							</div>
+
+						</div>
+						<!-- button-container end -->
+
+						<div class="swiper-container" id="button-switch">
+							<div class="swiper-wrapper">
+
+								<!--IOS system start-->
+								<div class="swiper-slide">
+
+									<div class="btnDiv2">
+										<p id="btn-front">Front &nbsp;<i class="fa fa-angle-up" aria-hidden="true"></i></p>
+										<p id="btn-back">Back &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></p>
+									</div>
+
+									<div class="swiper-container" id="swiper6">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+
+												<div class="button-container">
+													<div class="dropdown">
+														<button class="dropbtn"><span>All Category&nbsp;&nbsp;</span> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+														<div class="dropdown-content">
+															<a class="option1" href="#">All Category</a>
+															<a class="option2" href="#">Screen</a>
+															<a class="option3" href="#">Shell</a>
+															<a class="option4" href="#">Camera</a>
+															<!--<a class="option5" href="#">A11 Chip</a>-->
+															<a class="option5" href="#">Vibrator</a>
+															<a class="option7" href="#">Network Speed</a>
+															<a class="option8" href="#">Hard Disk (RAM)</a>
+															<a class="option9" href="#">Flash Memory (ROM)</a>
+															<a class="option10" href="#">Mobile Payment (NFC)</a>
+															<a class="option11" href="#">Heat Dissipation</a>
+															<a class="option12" href="#">Battery / Power</a>
+															<a class="option13" href="#">Wifi / Bluetooth</a>
+															<a class="option14" href="#">Headphone/Microphone</a>
+															<a class="option15" href="#">Other</a>
+														</div>
+													</div>
+												</div>
+												<!--<script type="text/javascript">
+													$(".option").click(function() {
+														// alert($(this).text())
+														//$(".dropbtn").text($(this).text())
+														$(".dropbtn span").text("shell")
+														// console.log(11)
+														$(".dropdown-content").slideUp(1000);
+														
+
+													});
+
+													$('.dropdown').mouseleave(function() {
+														$(".dropdown-content").slideUp(500);
+
+													});
+
+													$(".dropbtn").hover(function() {
+															$(".dropdown-content").slideDown(1000);
+													});
+												</script>-->
+												<!--teardown part start-->
+												<div class="container">
+													<div class="hoverFunction2 div1">
+														<img class="img-1" src="img/front1.png" alt="1">
+													</div>
+													<div class="box1">
+														<img class="b-img1" src="img/d-img1.png">
+														<div class="line1"></div>
+														<h4 class="box-h4">Lens Shell</h4>
+
+													</div>
+
+													<!-- img-2 -->
+													<div class="hoverFunction2 div2">
+														<img class="img-2" src="img/front2.png" alt="1">
+													</div>
+
+													<div class="box2">
+														<img class="b-img2" src="img/b-img2.png">
+														<div class="line2"></div>
+														<h4 class="box-h4">Rear Facing Camera</h4>
+														<p class="box-p">iPhone X has two 12-megapixel rear lenses arranged in a vertical orientation, one that's an f/1.8 aperture wide-angle lens and an f/2.4 aperture telephoto lens. These lenses have advanced pixel processing, improved color filters, a better sensor, faster autofocus, and optical image stabilization for both the telephoto and the wide-angle lenses, a first for an iPhone.</p>
+
+													</div>
+
+													<!-- img-3 -->
+													<div class="hoverFunction2 div3">
+														<img class="img-3" src="img/front3.png" alt="1">
+
+													</div>
+
+													<div class="box3">
+														<img class="b-img3" src="img/b-img3.png">
+														<div class="line3"></div>
+														<h4 class="box-h4">Back Cover</h4>
+
+													</div>
+
+													<!-- img-4 -->
+													<div class="hoverFunction2 div4">
+														<img class="img-4" src="img/front4.png" alt="1">
+
+													</div>
+													<div class="box4">
+														<img class="b-img4" src="img/b-img4.png">
+														<div class="line4"></div>
+														<h4 class="box-h4">Wireless Charging Coil</h4>
+														<p class="box-p">The wireless charging of iPhones—is Qi (pronounced “chee”) charging. Qi is developed by the Wireless Power Consortium, and its 247 members include the likes of Apple, Google, Samsung and just about every other big name in electronics manufacturing. The latest phones from Apple, Samsung and LG all have Qi built in.</p>
+
+													</div>
+
+													<!-- img-5 -->
+
+													<div class="hoverFunction2 div5">
+														<img class="img-5" src="img/front5.png" alt="1">
+
+													</div>
+
+													<!-- img-6 -->
+													<div class="hoverFunction2 div6">
+														<img class="img-6" src="img/front6.png" alt="1">
+													</div>
+													<div class="box6">
+														<img class="b-img6" src="img/b-img6.png">
+														<div class="line6"></div>
+														<h4 class="box-h4">Battery</h4>
+														<p><strong>Battery Capacity:</strong> 2716 mAh<br>
+															<strong>Talk time:</strong> Up to 21 hours<br>
+															<strong>Standby time:</strong> Up to 10 days</p>
+
+													</div>
+
+													<!-- img-7 -->
+													<div class="hoverFunction2 div7">
+														<img class="img-7" src="img/front7.png" alt="1">
+
+													</div>
+
+													<!-- img-8 -->
+													<div class="hoverFunction3 div8">
+														<img class="img-8" src="img/front8.png" alt="1">
+
+													</div>
+
+													<!-- img-9 -->
+													<div class="hoverFunction2 div9">
+														<img class="img-9" src="img/front9.png" alt="1">
+
+													</div>
+
+													<!-- img-10 -->
+													<div class="hoverFunction div10">
+														<img class="img-10" src="img/front10.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-1 -->
+													<div class="hoverFunction div1-1">
+														<img class="chip1-1" src="img/chip1-1.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-2 -->
+													<div class="hoverFunction div1-2">
+														<img class="chip1-2" src="img/chip1-2.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-3 -->
+													<div class="hoverFunction div1-3">
+														<img class="chip1-3" src="img/chip1-3.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-4 -->
+													<div class="hoverFunction div1-4">
+														<img class="chip1-4" src="img/chip1-4.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-5 -->
+													<div class="hoverFunction div1-5">
+														<img class="chip1-5" src="img/chip1-5.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-7 -->
+													<div class="hoverFunction div1-7">
+														<img class="chip1-7" src="img/chip1-7.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-8 -->
+													<div class="hoverFunction div1-8">
+														<img class="chip1-8" src="img/chip1-8.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-9 -->
+													<div class="hoverFunction div1-9">
+														<img class="chip1-9" src="img/chip1-9.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-10 -->
+													<div class="hoverFunction div1-10">
+														<img class="chip1-10" src="img/chip1-10.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-11 -->
+													<div class="hoverFunction div1-11">
+														<img class="chip1-11" src="img/chip1-11.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-12 -->
+													<div class="hoverFunction div1-12">
+														<img class="chip1-12" src="img/chip1-12.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-13 -->
+													<div class="hoverFunction div1-13">
+														<img class="chip1-13" src="img/chip1-13.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-14 -->
+													<div class="hoverFunction div1-14">
+														<img class="chip1-14" src="img/chip1-14.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-15 -->
+													<div class="hoverFunction div1-15">
+														<img class="chip1-15" src="img/chip1-15.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- img11 -->
+													<div class="hoverFunction div11">
+														<img class="img11" src="img/front11.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip2-1 -->
+													<div class="hoverFunction div2-1">
+														<img class="chip2-1" src="img/chip2-1.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip2-2 -->
+													<div class="hoverFunction div2-2">
+														<img class="chip2-2" src="img/chip2-1.png" alt="1">
+														<div class="maskless"></div>
+														<div class="mask"></div>
+													</div>
+													<img class="img-12" src="img/front12.png" alt="1">
+													<img class="img-13" src="img/front13.png" alt="1">
+													<!-- img-14 -->
+													<!-- <div class="hoverFunction div14">
+		    <img class="img-14" src="img/front14.png" alt="1">
+		    <div class="mask"></div>
+		</div> -->
+													<img class="img-14" src="img/front14.png" alt="1">
+													<img class="img-15" src="img/front15.png" alt="1">
+													<img class="img-16" src="img/front16.png" alt="1">
+													<img class="img-17" src="img/front17.png" alt="1">
+													<img class="img-18" src="img/front18.png" alt="1">
+													<img class="img-19" src="img/front19.png" alt="1">
+													<img class="img-20" src="img/front20.png" alt="1">
+
+													<svg height="0" xmlns="http://www.w3.org/2000/svg">
+														<filter id="drop-shadow"></filter>
+												</div>
+											</div>
+
+											<div class="swiper-slide">
+
+												<div class="button-container">
+													<div class="dropdown">
+														<button class="dropbtn">All Category&nbsp;&nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+														<div class="dropdown-content">
+															<a href="#">Screen</a>
+															<a href="#">Shell</a>
+															<a href="#">Camera</a>
+															<a href="#">A11 Chip</a>
+															<a href="#">Vibrator</a>
+															<a href="#">Network Speed</a>
+															<a href="#">Hard Disk (RAM)</a>
+															<a href="#">Flash Memory (ROM)</a>
+															<a href="#">Mobile Payment (NFC)</a>
+															<a href="#">Heat Dissipation (RAM)</a>
+															<a href="#">Battery / Power</a>
+															<a href="#">Wifi / Bluetooth</a>
+															<a href="#">Headphone/Microphone</a>
+															<a href="#">Other</a>
+														</div>
+													</div>
+												</div>
+												<!--teardown part start-->
+												<div class="container">
+													<div class="hoverFunction2 div1">
+														<img class="img-1" src="img/front1.png" alt="1">
+													</div>
+													<div class="box1">
+														<img class="b-img1" src="img/d-img1.png">
+														<div class="line1"></div>
+														<h4 class="box-h4">Lens Shell</h4>
+
+													</div>
+
+													<!-- img-2 -->
+													<div class="hoverFunction2 div2">
+														<img class="img-2" src="img/front2.png" alt="1">
+													</div>
+
+													<div class="box2">
+														<img class="b-img2" src="img/b-img2.png">
+														<div class="line2"></div>
+														<h4 class="box-h4">Rear Facing Camera</h4>
+														<p class="box-p">iPhone X has two 12-megapixel rear lenses arranged in a vertical orientation, one that's an f/1.8 aperture wide-angle lens and an f/2.4 aperture telephoto lens. These lenses have advanced pixel processing, improved color filters, a better sensor, faster autofocus, and optical image stabilization for both the telephoto and the wide-angle lenses, a first for an iPhone.</p>
+
+													</div>
+
+													<!-- img-3 -->
+													<div class="hoverFunction2 div3">
+														<img class="img-3" src="img/front3.png" alt="1">
+
+													</div>
+
+													<div class="box3">
+														<img class="b-img3" src="img/b-img3.png">
+														<div class="line3"></div>
+														<h4 class="box-h4">Back Cover</h4>
+
+													</div>
+
+													<!-- img-4 -->
+													<div class="hoverFunction2 div4">
+														<img class="img-4" src="img/front4.png" alt="1">
+
+													</div>
+													<div class="box4">
+														<img class="b-img4" src="img/b-img4.png">
+														<div class="line4"></div>
+														<h4 class="box-h4">Wireless Charging Coil</h4>
+														<p class="box-p">The wireless charging of iPhones—is Qi (pronounced “chee”) charging. Qi is developed by the Wireless Power Consortium, and its 247 members include the likes of Apple, Google, Samsung and just about every other big name in electronics manufacturing. The latest phones from Apple, Samsung and LG all have Qi built in.</p>
+
+													</div>
+
+													<!-- img-5 -->
+
+													<div class="hoverFunction2 div5">
+														<img class="img-5" src="img/front5.png" alt="1">
+
+													</div>
+
+													<!-- img-6 -->
+													<div class="hoverFunction2 div6">
+														<img class="img-6" src="img/front6.png" alt="1">
+													</div>
+													<div class="box6">
+														<img class="b-img6" src="img/b-img6.png">
+														<div class="line6"></div>
+														<h4 class="box-h4">Battery</h4>
+														<p><strong>Battery Capacity:</strong> 2716 mAh<br>
+															<strong>Talk time:</strong> Up to 21 hours<br>
+															<strong>Standby time:</strong> Up to 10 days</p>
+
+													</div>
+
+													<!-- img-7 -->
+													<div class="hoverFunction2 div7">
+														<img class="img-7" src="img/front7.png" alt="1">
+
+													</div>
+
+													<!-- img-8 -->
+													<div class="hoverFunction3 div8">
+														<img class="img-8" src="img/front8.png" alt="1">
+
+													</div>
+
+													<!-- img-9 -->
+													<div class="hoverFunction2 div9">
+														<img class="img-9" src="img/front9.png" alt="1">
+
+													</div>
+
+													<!-- img-10 -->
+													<div class="hoverFunction div10">
+														<img class="img-10" src="img/front10.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-1 -->
+													<div class="hoverFunction div1-1">
+														<img class="chip1-1" src="img/chip1-1.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-2 -->
+													<div class="hoverFunction div1-2">
+														<img class="chip1-2" src="img/chip1-2.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-3 -->
+													<div class="hoverFunction div1-3">
+														<img class="chip1-3" src="img/chip1-3.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-4 -->
+													<div class="hoverFunction div1-4">
+														<img class="chip1-4" src="img/chip1-4.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-5 -->
+													<div class="hoverFunction div1-5">
+														<img class="chip1-5" src="img/chip1-5.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-7 -->
+													<div class="hoverFunction div1-7">
+														<img class="chip1-7" src="img/chip1-7.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-8 -->
+													<div class="hoverFunction div1-8">
+														<img class="chip1-8" src="img/chip1-8.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-9 -->
+													<div class="hoverFunction div1-9">
+														<img class="chip1-9" src="img/chip1-9.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-10 -->
+													<div class="hoverFunction div1-10">
+														<img class="chip1-10" src="img/chip1-10.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-11 -->
+													<div class="hoverFunction div1-11">
+														<img class="chip1-11" src="img/chip1-11.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-12 -->
+													<div class="hoverFunction div1-12">
+														<img class="chip1-12" src="img/chip1-12.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-13 -->
+													<div class="hoverFunction div1-13">
+														<img class="chip1-13" src="img/chip1-13.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-14 -->
+													<div class="hoverFunction div1-14">
+														<img class="chip1-14" src="img/chip1-14.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip1-15 -->
+													<div class="hoverFunction div1-15">
+														<img class="chip1-15" src="img/chip1-15.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- img11 -->
+													<div class="hoverFunction div11">
+														<img class="img11" src="img/front11.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip2-1 -->
+													<div class="hoverFunction div2-1">
+														<img class="chip2-1" src="img/chip2-1.png" alt="1">
+														<div class="mask"></div>
+													</div>
+
+													<!-- chip2-2 -->
+													<div class="hoverFunction div2-2">
+														<img class="chip2-2" src="img/chip2-1.png" alt="1">
+														<div class="mask"></div>
+													</div>
+													<img class="img-12" src="img/front12.png" alt="1">
+													<img class="img-13" src="img/front13.png" alt="1">
+													<!-- img-14 -->
+													<!-- <div class="hoverFunction div14">
+		    <img class="img-14" src="img/front14.png" alt="1">
+		    <div class="mask"></div>
+		</div> -->
+													<img class="img-14" src="img/front14.png" alt="1">
+													<img class="img-15" src="img/front15.png" alt="1">
+													<img class="img-16" src="img/front16.png" alt="1">
+													<img class="img-17" src="img/front17.png" alt="1">
+													<img class="img-18" src="img/front18.png" alt="1">
+													<img class="img-19" src="img/front19.png" alt="1">
+													<img class="img-20" src="img/front20.png" alt="1">
+													<svg height="0" xmlns="http://www.w3.org/2000/svg">
+														<filter id="drop-shadow"></filter>
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+								<!--IOS system end-->
+
+								<!--android-system start-->
+								<div class="swiper-slide">
+									<div class="button-container">
+										<div class="dropdown">
+											<button class="dropbtn">All Category&nbsp;&nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+											<div class="dropdown-content">
+												<a href="#">Screen</a>
+												<a href="#">Shell</a>
+												<a href="#">Camera</a>
+												<a href="#">A11 Chip</a>
+												<a href="#">Vibrator</a>
+												<a href="#">Network Speed</a>
+												<a href="#">Hard Disk (RAM)</a>
+												<a href="#">Flash Memory (ROM)</a>
+												<a href="#">Mobile Payment (NFC)</a>
+												<a href="#">Heat Dissipation (RAM)</a>
+												<a href="#">Battery / Power</a>
+												<a href="#">Wifi / Bluetooth</a>
+												<a href="#">Headphone/Microphone</a>
+												<a href="#">Other</a>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+
+								<!--android-system end-->
+
+							</div>
+						</div>
+
+						<!--button-switch end-->
+
+					</div>
+				</div>
+
+				<!--slide 3-->
+				<div class="swiper-slide">
+
+					<!--<!DOCTYPE html>
+					<html style="height: 100%">-->
+
+					
+						<!--button-container start-->
+						<div class="map-button-container">
+							<div class="tworow">
+								<span id="thirdbg" class="spans"></span>
+								<ul id="hourlist">
+									<li class="active" type="1" id="mapBtn1">IOS iPhoneX</li>
+									<li type="2" id="mapBtn2">Android HuaweiP30</li>
+								</ul>
+							</div>
+						</div>
+						<script>
+							$("#mapBtn2").click(function() {
+								$(".spans").css("left", "172px")
+
+							})
+							$("#mapBtn1").click(function() {
+								$(".spans").css("left", "0px")
+
+							})
+						</script>
+						<!--button-container end-->
+
+						<div class="swiper-container" id="map-switch">
+							<div class="swiper-wrapper">
+								<!--ios distribution-->
+								<div class="swiper-slide">
+
+									<div class="map-button-container">
+										<div class="tworow2">
+											<span id="thirdbg2"></span>
+											<ul id="hourlist2">
+												<li class="active" type="1" id="mapBtn3">Manufactures</li>
+												<li type="2" id="mapBtn4">Suppliers</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="swiper-container" id="iPhoneX-switch">
+										<div class="swiper-wrapper">
+											<!--manufactures-->
+											<div class="swiper-slide">
+												<!-- map -->
+												<div id="container" style="height: 88%; margin-top: 57px; "></div>
+												<!-- bar chart -->
+												<div id="bar" style="height: 35%; width: 55%; margin:-279px 0 0 572px;"></div>
+											</div>
+											<!--suppliers-->
+											<div class="swiper-slide">
+
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+								<!--android distribution-->
+								<div class="swiper-slide">
+
+									<div class="map-button-container">
+										<div class="tworow3">
+											<span id="thirdbg3"></span>
+											<ul id="hourlist3">
+												<li class="active" type="1" id="mapBtn5">Manufactures</li>
+												<li type="2" id="mapBtn6">Suppliers</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="swiper-container" id="android-switch">
+										<div class="swiper-wrapper">
+											<!--manufactures-->
+											<div class="swiper-slide">
+
+											</div>
+											<!--suppliers-->
+											<div class="swiper-slide">
+
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--</div>-->
+
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+		<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+		<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+		<script src="js/ios-suppliers.js"></script>
+
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

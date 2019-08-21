@@ -8,8 +8,9 @@ body {
 	position: relative;
 	background-color: #020915;
 }
+
 .swiper-slide{
-	overflow：hidden;
+	overflow: hidden;
 }
 
 .btnDiv2 {

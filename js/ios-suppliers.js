@@ -24,7 +24,6 @@ $(document).ready(function() {
 		});
 	};
 
-	
 	new Slideicon($("#hourlist"), {
 		index: 0,
 		cover: $("#thirdbg"),
@@ -40,7 +39,7 @@ $(document).ready(function() {
 			console.log(data)
 		}
 	});
-	
+
 	new Slideicon($("#hourlist3"), {
 		index: 0,
 		cover: $("#thirdbg3"),
@@ -48,9 +47,7 @@ $(document).ready(function() {
 			console.log(data)
 		}
 	});
-	
 
-	
 	var swiper3 = new Swiper('#map-switch', {
 		allowTouchMove: false,
 		mousewheel: false,
@@ -61,12 +58,12 @@ $(document).ready(function() {
 	$("#mapBtn2").click(function() {
 		swiper3.slideTo(1, 1000, false);
 	});
-	
+
 	var swiper4 = new Swiper('#iPhoneX-switch', {
 		allowTouchMove: false,
 		mousewheel: false,
 	});
-	
+
 	$("#mapBtn3").click(function() {
 		swiper4.slideTo(0, 1000, false);
 	});
@@ -88,11 +85,19 @@ $(document).ready(function() {
 //	});
 //});
 
-
 // end
 
 // wolrd map
 var dom = document.getElementById("container");
+
+////用于使chart自适应高度和宽度,通过窗体高宽计算容器高宽
+//var resizedom = function() {
+//	dom.style.width = window.innerWidth + 'px';
+//	dom.style.height = window.innerHeight + 'px';
+//};
+////设置容器高宽
+//resizedom();
+
 //初始
 var myChart = echarts.init(dom);
 var app = {};
@@ -382,46 +387,46 @@ var seriseData = [
 						'<div class=taiwan><div class=circle2></div>Taiwan : 44</div>'
 					return res;
 				}
-				
+
 				if(params.name == 'United States') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>United States : 41</div>' 
+						'<div class=lableContent2>United States : 41</div>'
 					return res;
 				}
-				
+
 				if(params.name == 'Singapore') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>Singapore : 6</div>' 
+						'<div class=lableContent2>Singapore : 6</div>'
 					return res;
 				}
 				if(params.name == 'Germany') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>Germany : 5</div>' 
+						'<div class=lableContent2>Germany : 5</div>'
 					return res;
 				}
 				if(params.name == 'Netherlands') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>Netherlands : 4</div>' 
+						'<div class=lableContent2>Netherlands : 4</div>'
 					return res;
 				}
 				if(params.name == 'Italy') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>Italy : 1</div>' 
+						'<div class=lableContent2>Italy : 1</div>'
 					return res;
 				}
 				if(params.name == 'French') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>Frenche : 1</div>' 
+						'<div class=lableContent2>Frenche : 1</div>'
 					return res;
 				}
 				if(params.name == 'Austria') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>Austria : 1</div>' 
+						'<div class=lableContent2>Austria : 1</div>'
 					return res;
 				}
 				if(params.name == 'Korea') {
 					var res = '<div class=lableContent1>All Category</div>' +
-						'<div class=lableContent2>Korea : 10</div>' 
+						'<div class=lableContent2>Korea : 10</div>'
 					return res;
 				}
 			},
@@ -501,8 +506,8 @@ var seriseData = [
 
 			}
 		},
-		
-			tooltip: { //显示悬浮窗口
+
+		tooltip: { //显示悬浮窗口
 			trigger: 'item',
 			//使用这个函数返回悬浮内容
 			formatter: function(params) {
@@ -511,37 +516,37 @@ var seriseData = [
 
 				if(params.name == 'Japan') {
 					var res = '<div class=lableContent1>Shell</div>' +
-						'<div class=lableContent2>Japan : 2</div>'+
-						'<div class=company><div class=circle3></div> Toyo Rikagaku Kenkyusho </div>'+
+						'<div class=lableContent2>Japan : 2</div>' +
+						'<div class=company><div class=circle3></div> Toyo Rikagaku Kenkyusho </div>' +
 						'<div class=company-bottom><div class=circle3></div>Zeniya Aluminum Engineering </div>'
-					
+
 					return res;
 				}
 				if(params.name == 'China') {
 					var res = '<div class=lableContent1>Shell</div>' +
 						'<div class=lableContent2>China : 3</div>' +
 						'<div class=mainland><span class=circle></span>Mainland : 1</div>' +
-						'<div class=company-bottom><div class=circle3></div> LianFeng Company </div>'+
+						'<div class=company-bottom><div class=circle3></div> LianFeng Company </div>' +
 						'<div class=mainland><div class=circle2></div>Taiwan : 2</div>' +
-						'<div class=company><div class=circle3></div> Catcher Technology </div>'+
+						'<div class=company><div class=circle3></div> Catcher Technology </div>' +
 						'<div class=company-bottom><div class=circle3></div>NANYA </div>'
 					return res;
 				}
-				
+
 				if(params.name == 'United States') {
 					var res = '<div class=lableContent1>Shell</div>' +
 						'<div class=lableContent2>United States : 1</div>' +
 						'<div class=company-bottom><div class=circle3></div>Jabil Circuit </div>'
 					return res;
 				}
-				
+
 				if(params.name == 'Singapore') {
 					var res = '<div class=lableContent1>Shell</div>' +
 						'<div class=lableContent2>Singapore : 1</div>' +
 						'<div class=company-bottom><div class=circle3></div>HI-P</div>'
 					return res;
 				}
-				
+
 			},
 
 		},
@@ -1152,19 +1157,6 @@ option = {
 
 	},
 
-	//  itemStyle: {   //每个点的样式
-	//          normal: {
-	//            areaColor: 'transparent',  
-	//            borderColor: '#3fdaff',
-	//            borderWidth: 2,
-	//            shadowColor: 'rgba(63, 218, 255, 0.5)',
-	//            shadowBlur: 30  
-	//          },
-	//          emphasis: {
-	//            areaColor: '#2B91B7',
-	//          }
-	//       },
-
 	color: legendColor,
 
 	//color verticle
@@ -1188,7 +1180,7 @@ option = {
 	toolbox: {
 		show: true,
 		right: '5%',
-		top: '5%',
+		top: '12%',
 		feature: {
 			// dataView: {readOnly: false},
 			// restore: {},
@@ -1198,7 +1190,18 @@ option = {
 
 	series: seriseData,
 	nameMap: nameMap
+
 };;
+
+//// 使用刚指定的配置项和数据显示图表。
+//myChart.setOption(option);
+//
+////用于使chart自适应高度和宽度
+//window.onresize = function() {
+//	//重置容器高宽
+//	resizedom();
+//	myChart.resize();
+//};
 
 if(option && typeof option === "object") {
 	myChart.setOption(option, true);
@@ -1207,16 +1210,16 @@ if(option && typeof option === "object") {
 
 //bar chart
 var dombar = document.getElementById("bar");
+
+
 var bar = echarts.init(dombar);
 var optionbar = {
-	
-		
 
 	tooltip: {
 		trigger: "axis",
-			
+
 		axisPointer: {
-            
+
 			label: {
 				show: true
 			}
@@ -1244,7 +1247,7 @@ var optionbar = {
 	},
 	yAxis: {
 		type: 'value',
-		name:'Number of companies',
+		name: 'Number of companies',
 		axisLabel: {
 			color: '#56627e' //y轴颜色
 		},
@@ -1287,13 +1290,24 @@ var optionbar = {
 		}
 	}]
 };
+
 bar.setOption(optionbar);
+
+
+window.onresize = function () {
+        myChart.resize();
+ 
+         bar.resize();
+    };
+ 
+
+
 
 myChart.on('legendselectchanged', function(params) {
 	console.log(params)
 	if(params.name == 'All Category') {
 		optionbar.xAxis.data = ["China(Taiwan)", "America", "Japan", "China(Mainland)", "Korea", "Singapore", "Germany", "Netherlands", "India", "France", "Austria"];
-//		optionbar.series[0].name = All Category;
+		//		optionbar.series[0].name = All Category;
 		optionbar.series[0].data = [44, 41, 40, 18, 10, 6, 5, 4, 1, 1, 1];
 		optionbar.series[0].barWidth = 30;
 		console.log(optionbar)

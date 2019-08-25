@@ -1,0 +1,215 @@
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #030914;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style-type: none;
+	top: 0px;
+	height: 24px;
+	line-height: 36px;
+	float: left;
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+.map-button-container {
+	position: absolute;
+	width: 100%;
+	top: 42px;
+}
+
+
+/*button1*/
+
+.tworow {
+	border-radius: 20px;
+	width: 344px;
+	height: 33px;
+	border: 2px solid;
+	box-shadow: 0px 0px 5px #2e6aff;
+	display: inline-block;
+	position: relative;
+	margin-left: 84px;
+	margin-top: 0;
+	z-index: 999;
+}
+
+.tworow span {
+	display: inline-block;
+	height: 37px;
+	top: -2px;
+	position: absolute;
+	left: 0;
+	border-radius: 20px;
+	transition: left .4s;
+	-webkit-transition: left .4s;
+	width: 174px;
+	background: linear-gradient(to left, #86baff, #2261ff);
+	box-shadow: 0px 0px 25px #2665ff;
+}
+
+.tworow .active {
+	color: white;
+}
+
+.tworow li {
+	width: 172px;
+	color: white;
+}
+
+
+/*button2*/
+
+.tworow2 {
+	border-radius: 20px;
+	width: 344px;
+	height: 33px;
+	border: 2px solid;
+	box-shadow: 0px 0px 5px #2e6aff;
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-right: 84px;
+	margin-top: 0;
+	z-index: 999;
+}
+
+.tworow2 span {
+	display: inline-block;
+	height: 37px;
+	top: -2px;
+	position: absolute;
+	left: 0;
+	border-radius: 20px;
+	transition: left .4s;
+	-webkit-transition: left .4s;
+	width: 174px;
+	background: linear-gradient(to left, #86baff, #2261ff);
+	box-shadow: 0px 0px 25px #2665ff;
+}
+
+.tworow2 .active {
+	color: white;
+}
+
+.tworow2 li {
+	width: 172px;
+	color: white;
+}
+
+/*button3*/
+
+.tworow3 {
+	border-radius: 20px;
+	width: 344px;
+	height: 33px;
+	border: 2px solid;
+	box-shadow: 0px 0px 5px #2e6aff;
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-right: 84px;
+	margin-top: 0;
+	z-index: 999;
+}
+
+.tworow3 span {
+	display: inline-block;
+	height: 37px;
+	top: -2px;
+	position: absolute;
+	left: 0;
+	border-radius: 20px;
+	transition: left .4s;
+	-webkit-transition: left .4s;
+	width: 174px;
+	background: linear-gradient(to left, #86baff, #2261ff);
+	box-shadow: 0px 0px 25px #2665ff;
+}
+
+.tworow3 .active {
+	color: white;
+}
+
+.tworow3 li {
+	width: 172px;
+	color: white;
+}
+
+.lableContent1 {
+	text-align: center;
+	padding: 15px 6px 0px 6px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.lableContent2 {
+	text-align: center;
+	padding: 8px 10px 15px 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.circle {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-color: white;
+	margin: 10px 6px 5px 0px;
+	/*box-shadow: X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色 投影方式;*/
+	/*box-shadow: 0px 0px 2px 2px #2665ff;*/
+	border-radius: 50%;
+}
+.circle2 {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-color: white;
+	margin: 10px 6px 5px 0px;
+	/*box-shadow: X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色 投影方式;*/
+	/*box-shadow: 0px 0px 2px 2px #2665ff;*/
+	border-radius: 50%;
+}
+
+.circle3 {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-color: #7894dd;
+	
+	margin: 10px 6px 5px 0px;
+	/*box-shadow: X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色 投影方式;*/
+	/*box-shadow: 0px 0px 2px 2px #2665ff;*/
+	border-radius: 50%;
+}
+.mainland{
+	padding: 0px 30px;
+}
+
+.taiwan{
+	padding: 0px 30px 20px 30px;
+}
+
+.company{
+	padding: 0px 10px 0px 10px;
+	font-size: 13px;
+	color: white;
+}
+.company-bottom{
+	padding: 0px 10px 20px 10px;
+	font-size: 13px;
+	color: white;
+}

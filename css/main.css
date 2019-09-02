@@ -292,7 +292,7 @@ li:hover {
 }
 
 .dropdown-content {
-	margin-top: 20px;
+	margin-top: 11px;
 	/*margin-left: -30px;*/
 	width: auto;
 	padding: 0px 30px 18px 30px;
@@ -331,7 +331,7 @@ li:hover {
 /*teardown-phone content start*/
 
 .container {
-	margin: 150px 0px 0px 0px;
+	margin: 100px 0px 0px 0px;
 }
 
 
@@ -402,8 +402,8 @@ li:hover {
 	border-radius: 20px;
 	background-color: rgba(37, 43, 69, 0.9);
 	position: absolute;
-	margin-top: -693px;
-	margin-left: 146px;
+	margin-top: -661px;
+    margin-left: 63px;
 	display: none;
 	z-index: 200;
 }
@@ -453,7 +453,7 @@ li:hover {
 	background-color: rgba(37, 43, 69, 0.9);
 	position: absolute;
 	margin-top: -600px;
-	margin-left: 139px;
+	margin-left: 78px;
 	z-index: 200;
 	display: none;
 }
@@ -504,7 +504,7 @@ li:hover {
 	background-color: rgba(37, 43, 69, 0.9);
 	position: absolute;
 	margin-top: -550px;
-	margin-left: 155px;
+	margin-left: 68px;
 	z-index: 200;
 	display: none;
 }
@@ -628,8 +628,8 @@ li:hover {
 	border-radius: 20px;
 	background-color: rgba(37, 43, 69, 0.9);
 	position: absolute;
-	margin-top: -456px;
-	margin-left: 360px;
+	margin-top: -465px;
+    margin-left: 276px;
 	z-index: 200;
 	display: none;
 }
